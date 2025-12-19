@@ -31,7 +31,7 @@ function Get-LocationPathConfig {
     [PSCustomObject]@{ Name = "<YOUR_DESKTOP>";        Path = Join-Path $DesktopPath    "<YOUR_DESKTOP>";        IsRepo = $true;   IsOnlyMain = $true  },
 
     ##########---------- NAVIGATION ONLY (go() function) ----------##########
-    [PSCustomObject]@{ Name = "desktop";               Path = $DesktopPath;                  IsRepo = $false },
+    [PSCustomObject]@{ Name = "desk";                  Path = $DesktopPath;                  IsRepo = $false },
     [PSCustomObject]@{ Name = "dwld";                  Path = Join-Path $HOME "Downloads";   IsRepo = $false },
     [PSCustomObject]@{ Name = "home";                  Path = $HOME;                         IsRepo = $false },
     [PSCustomObject]@{ Name = "nvim";                  Path = $NvimPath;                     IsRepo = $false },
