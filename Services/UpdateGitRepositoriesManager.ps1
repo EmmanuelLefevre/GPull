@@ -19,6 +19,7 @@ function Update-GitRepositories {
     return
   }
 
+
   ######## START GLOBAL TIMER ########
   $globalTimer = Start-OperationTimer
 
